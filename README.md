@@ -16,7 +16,8 @@
 **•	Biometric Authentication:** Enhances security by cross-referencing detected faces with authenticated profiles to verify video credibility. 
 
 # Key Features: 
-<img width="926" alt="services" src="https://github.com/user-attachments/assets/90d9dbc0-ac8f-44bc-95c3-87c06fa9565f"> 
+ <img width="945" alt="features " src="https://github.com/user-attachments/assets/e05d53dc-4308-4f44-8d66-6744023cc45a">
+
 
 # How It Works (Architecture & Workflow):
 **Architecture Of Detection  Of Face-Swap Based DeepFake Videos :**
