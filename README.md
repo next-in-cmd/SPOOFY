@@ -1,13 +1,13 @@
-# Spoofy: Advanced Detection of Face-Swap Deep Fake Videos
+# SpooFy: Advanced Detection of Face-Swap Deep Fake Videos
 
-"Spoofy" represents a cutting-edge solution for detecting face-swap deep fake videos, addressing critical issues in video authenticity and security. By combining antispoofing, liveness detection, and biometric authentication, Spoofy offers a comprehensive and innovative approach to safeguarding digital media integrity. We invite stakeholders to support Spoofy in advancing video security and trustworthiness.
+"SpooFy" represents a cutting-edge solution for detecting face-swap deep fake videos, addressing critical issues in video authenticity and security. By combining antispoofing, liveness detection, and biometric authentication, Spoofy offers a comprehensive and innovative approach to safeguarding digital media integrity. We invite stakeholders to support Spoofy in advancing video security and trustworthiness.
 
 ![spoofy](https://github.com/user-attachments/assets/e5a1888e-52ef-4dd2-8141-03ad5148860c)
 
 #  Introduction and Problem Statement: 
 **1. Addressing Problem :** Face-swap deep fake videos are becoming increasingly prevalent and more realistic, making them difficult to detect with conventional methods. This inability to accurately identify deep fakes jeopardizes trust in digital content, potentially leading to misinformation and security issues. A comprehensive and effective solution is needed to enhance detection accuracy and reliability.
 
-**Proposed Solution :** "Spoofy" is designed to tackle the challenge of detecting face-swap deep fake videos using advanced technologies. Key features of Spoofy include:
+**Proposed Solution :** "SpooFy" is designed to tackle the challenge of detecting face-swap deep fake videos using advanced technologies. Key features of Spoofy include:
 
 **•	Advanced DeepFake Video Detection:** Detects subtle artifacts and inconsistencies introduced during face-swapping, differentiating between real and manipulated faces.
 
