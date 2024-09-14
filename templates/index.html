@@ -1,1 +1,198 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"/><link rel="icon" href="/static/react/favicon.ico"/><meta name="viewport" content="width=device-width,initial-scale=1"/><meta name="theme-color" content="#000000"/><meta name="description" content="Web site created using create-react-app"/><link rel="manifest" href="/static/react/manifest.json"/><title>React App</title><script type="text/JavaScript">window.data="{{data}}"</script><link href="/static/react/css/main.03d2e280.chunk.css" rel="stylesheet"></head><body><noscript>You need to enable JavaScript to run this app.</noscript><div id="root"></div><script>!function(e){function t(t){for(var n,i,a=t[0],c=t[1],l=t[2],s=0,p=[];s<a.length;s++)i=a[s],Object.prototype.hasOwnProperty.call(o,i)&&o[i]&&p.push(o[i][0]),o[i]=0;for(n in c)Object.prototype.hasOwnProperty.call(c,n)&&(e[n]=c[n]);for(f&&f(t);p.length;)p.shift()();return u.push.apply(u,l||[]),r()}function r(){for(var e,t=0;t<u.length;t++){for(var r=u[t],n=!0,a=1;a<r.length;a++){var c=r[a];0!==o[c]&&(n=!1)}n&&(u.splice(t--,1),e=i(i.s=r[0]))}return e}var n={},o={1:0},u=[];function i(t){if(n[t])return n[t].exports;var r=n[t]={i:t,l:!1,exports:{}};return e[t].call(r.exports,r,r.exports,i),r.l=!0,r.exports}i.e=function(e){var t=[],r=o[e];if(0!==r)if(r)t.push(r[2]);else{var n=new Promise((function(t,n){r=o[e]=[t,n]}));t.push(r[2]=n);var u,a=document.createElement("script");a.charset="utf-8",a.timeout=120,i.nc&&a.setAttribute("nonce",i.nc),a.src=function(e){return i.p+"js/"+({}[e]||e)+"."+{3:"5223a77c"}[e]+".chunk.js"}(e);var c=new Error;u=function(t){a.onerror=a.onload=null,clearTimeout(l);var r=o[e];if(0!==r){if(r){var n=t&&("load"===t.type?"missing":t.type),u=t&&t.target&&t.target.src;c.message="Loading chunk "+e+" failed.\n("+n+": "+u+")",c.name="ChunkLoadError",c.type=n,c.request=u,r[1](c)}o[e]=void 0}};var l=setTimeout((function(){u({type:"timeout",target:a})}),12e4);a.onerror=a.onload=u,document.head.appendChild(a)}return Promise.all(t)},i.m=e,i.c=n,i.d=function(e,t,r){i.o(e,t)||Object.defineProperty(e,t,{enumerable:!0,get:r})},i.r=function(e){"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})},i.t=function(e,t){if(1&t&&(e=i(e)),8&t)return e;if(4&t&&"object"==typeof e&&e&&e.__esModule)return e;var r=Object.create(null);if(i.r(r),Object.defineProperty(r,"default",{enumerable:!0,value:e}),2&t&&"string"!=typeof e)for(var n in e)i.d(r,n,function(t){return e[t]}.bind(null,n));return r},i.n=function(e){var t=e&&e.__esModule?function(){return e.default}:function(){return e};return i.d(t,"a",t),t},i.o=function(e,t){return Object.prototype.hasOwnProperty.call(e,t)},i.p="/static/react/",i.oe=function(e){throw console.error(e),e};var a=this.webpackJsonpwebsite=this.webpackJsonpwebsite||[],c=a.push.bind(a);a.push=t,a=a.slice();for(var l=0;l<a.length;l++)t(a[l]);var f=c;r()}([])</script><script src="/static/react/js/2.76399d02.chunk.js"></script><script src="/static/react/js/main.ecd30300.chunk.js"></script></body></html>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Deepfake Face Detection</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+</head>
+  <body>
+    <header class="header">
+      <a href="#home"><img src="human.png" alt="logoimg"></a>
+        <a href="#home" class="logo">AI <span>Nexus</span></a>
+      <i class="bx bx-menu" id="menu-icon"></i>
+        <nav class="navbar">
+          <a href="#home">Home</a>
+          <a href="#working">Working Process</a>
+          <a href="#ourservices">Services</a>
+          <a href="#usecase">Use Cases</a>
+          <a href="#about">About Us</a>
+      </nav>
+      <a href="http://127.0.0.1:3000/Login%20page/login.html" class="gradient-btn" type="button">Log in</a>
+    </header>
+    <section class="home" id="home">
+      <div class="home-content">
+            <h1><span>SpooFy</span></h1>
+            <h3>The <span>Deepfake Face Detector</span></h3>
+            <p>In today's era of advanced digital manipulation, the need for a dependable <strong> deepfake detection system </strong> has become critical. Spoofy utilizes advanced algorithms powered by artificial intelligence to assess the authenticity of visual content. This ensures a robust safeguard against the rising risk of misleading media, particularly in identity verification processes.</p>
+            <div class="btn-group">
+              <a href="#" class="btn">Try It Now</a>
+            </div>
+            <div class="social-icons">
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-github"></i></a>
+                <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+            </div>
+          </div>
+        <div class="home-video">
+          <video src="Black Finance Money Coach YouTube Thumbnail (1).mp4" autoplay loop muted></video>
+        </div>
+    </section>
+
+    <section class="deepfake-detector" id="working">
+      <h1>How Spoofy Deepfake Detector Works</h1>
+      <p class="description">
+         Spoofy Deepfake Detection is designed to <strong>safeguard digital identity verification against fraud. </strong> It identifies whether a face in an image or video is AI-generated, manipulated, or authentic. This technology helps prevent criminals from bypassing digital identity checks by using deepfakes to impersonate others.
+      </p>
+
+      <!-- Steps Section -->
+      <div class="steps-container">
+          <!-- Step 1 -->
+          <div class="step">
+              <div class="step-number">1</div>
+              <img src="data-collecting.png" alt="Face Data Collection Icon" class="step-icon">
+              <h3>Data Collection</h3>
+              <p>Generate huge ethnical and gender-diverse data sets of real and (deep) fake faces.</p>
+          </div>
+
+          <!-- Step 2 -->
+          <div class="step">
+              <div class="step-number">2</div>
+              <img src="face-scan.png" alt="Deepfake Identification Icon" class="step-icon">
+              <h3>Deepfake Identification</h3>
+              <p>Train AI to recognize the differences between authentic and potentially manipulated content.</p>
+          </div>
+
+          <!-- Step 3 -->
+          <div class="step">
+              <div class="step-number">3</div>
+              <img src="authentication.png" alt="Authentication Icon" class="step-icon">
+              <h3>Authentication</h3>
+              <p>Integrate deepfake detection software tools into verification services for liveness detection
+                  and biometric authentication.
+              </p>
+          </div>
+      </div>
+  </section>
+  
+    <section class="services1" id="ourservices">
+      <h1>Our Services</h1>
+      <div class="services">
+      <div class="service-card">
+          <video src="face-biometrics-company-liveness-detection.mp4" autoplay loop="true"></video>
+          <h3>Liveness Detection</h3>
+          <p>Patented Presentation Attack Detection (PAD) Technology</p>
+          <p>Deepfake Detection</p>
+          <p>Active and Passive Detection</p>
+          <a href="#" class="btn-more">Liveness Detection</a>
+      </div>
+
+      <div class="service-card">
+        <video src="BioID-Deepfake-Detection.mp4" autoplay loop="true"></video>
+          <h3>Deepfake Detection</h3>
+          <p>Easy API Integration</p>
+          <p>Robust Against AI-Driven Identity Fraud</p>
+          <p>Extensively Trained</p>
+          <a href="#" class="btn-more">Deepfake Detection</a>
+      </div>
+
+      <div class="service-card">
+        <video src="face-biometrics-company-identity-proofing-photoverify.mp4" autoplay loop="true"></video>
+          <h3>Photo Verify</h3>
+          <p>Supports KYC/AML</p>
+          <p>ID Ownership Verification</p>
+          <p>Easy Face and ID Photo Matching</p>
+          <a href="#" class="btn-more">Photo Verify</a>
+      </div>
+
+      <div class="service-card">
+        <video src="face-biometrics-company-face-recognition.mp4" autoplay loop="true"></video>
+          <h3>Face Recognition</h3>
+          <p>Highly Accurate Cloud Authentication</p>
+          <p>User-Friendly Selfie Authentication</p>
+          <p>Enhanced Security with Liveness Detection</p>
+          <a href="#" class="btn-more">Face Recognition</a>
+      </div>
+      </div>
+  </section>
+  <section class="use-cases-section" id="usecase">
+    <div class="container">
+        <h1>Use Cases</h1>
+        <div class="cards-container">
+            <div class="card">
+                <img src="news.jpeg" alt="Media and News Verification">
+                <div class="card-content">
+                    <h2>Media and News Verification</h2>
+                    <p>Verify the authenticity of media content to prevent the spread of fake news and misinformation.</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="Social-Media-Privacy-Settings.jpg" alt="Social Media Protection">
+                <div class="card-content">
+                    <h2>Social Media Protection</h2>
+                    <p>Detect and flag manipulated content before it reaches a large audience, protecting users from misleading information.</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="corporate.jpeg" alt="Corporate Security">
+                <div class="card-content">
+                    <h2>Corporate Security</h2>
+                    <p>Ensure the integrity of corporate communications and prevent fraud by detecting fake videos and impersonations.</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="identity-verification.jpg" alt="Identity Verification">
+                <div class="card-content">
+                    <h2>Identity Verification</h2>
+                    <p>Enhance online identity verification processes by detecting deepfake attempts in KYC and authentication procedures.</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="media_and_entertainment.jpg" alt="Entertainment Industry">
+                <div class="card-content">
+                    <h2>Entertainment Industry</h2>
+                    <p>Protect the rights of actors and celebrities from unauthorized deepfake use in media productions.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+  <section class="about-section" id="about">
+    <div class="container">
+        <h1>About Us</h1>
+        <p>
+            At <strong>Spoofy</strong>, we are dedicated to offering cutting-edge deepfake detection technology to safeguard the authenticity of media in today's fast-changing digital landscape. Using our AI-powered tools, we identify manipulated videos and images, giving businesses, media organizations, and individuals confidence in the face of harmful deepfake content.
+        </p>
+
+        <div class="mission">
+            <h2>Our Mission</h2>
+            <p>
+              Our core objective is to combat misinformation and maintain the integrity of digital media by providing reliable and innovative deepfake detection services. We continuously enhance our AI and machine learning algorithms to stay ahead of new threats and ensure the highest levels of protection.
+            </p>
+        </div>
+        <div class="team">
+            <h2>Meet Our Team</h2>
+              <li><strong>Omkar Biradar (Team Leader):</strong> Model Deployment</li>
+              <li><strong>Gopal Payghan :</strong> Backend Development</li>
+              <li><strong>Karan Lande :</strong> Model Deployment</li>
+              <li><strong>Sanket Pandit :</strong> Model Deployment</li>
+              <li><strong>Ashutosh Mandan :</strong> Documentation & Research Work, UI/UX Designing</li>
+              <li><strong>Shruti Gadilkar</strong> Frontend Development</li>
+        </div>
+    </div>
+</section>
+  <footer>
+      <div class="container">
+          <p>&copy; 2024 SpooFy. All Rights Reserved.</p>
+      </div>
+  </footer>
+</body>
+</html>
