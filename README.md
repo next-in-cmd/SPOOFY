@@ -9,7 +9,7 @@
 
 **Proposed Solution :** "Spoofy" is designed to tackle the challenge of detecting face-swap deep fake videos using advanced technologies. Key features of Spoofy include:
 
-**•	Antispoofing:** Detects subtle artifacts and inconsistencies introduced during face-swapping, differentiating between real and manipulated faces.
+**•	Advanced DeepFake Video Detection:** Detects subtle artifacts and inconsistencies introduced during face-swapping, differentiating between real and manipulated faces.
 
 **•	Liveness Detection:** Verifies that the facial features in the video correspond to a live individual rather than a static image or clip, ensuring authenticity.
 
