@@ -41,7 +41,7 @@
 **•	Cloud Services:** AWS/Docker for scalable infrastructure and deployment.
 
  # Trained Model :  
- Our Trained Model(https://drive.google.com/file/d/1UzkUZXb4GLzMIEApEe9GZkfPQknJiA15/view?usp=drive_link) 
+ Our Trained Model(https://drive.google.com/drive/folders/1lQ7ft5ecdAecymNuMLVlQQ-1ldqy_FTN?usp=drive_link) 
 
  #  Team Members and Roles: 
  **Omkar Biradar : Model Deployment** 
