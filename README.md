@@ -47,7 +47,7 @@
  #  Team Members and Roles: 
  **Omkar Biradar : Model Training, Deployment, UI Designing** 
  
- **Karan Lande : Model Training development** 
+ **Karan Lande : Model Training Development** 
  
  **Gopal Payghan : Backend Developement**
  
