@@ -45,15 +45,15 @@
  Our Trained Model(https://drive.google.com/drive/folders/1lQ7ft5ecdAecymNuMLVlQQ-1ldqy_FTN?usp=drive_link) 
 
  #  Team Members and Roles: 
- **Omkar Biradar : Model Deployment** 
+ **Omkar Biradar : Model Training, Deployment, UI Designing** 
  
- **Karan Lande : Model development** 
+ **Karan Lande : Model Training development** 
  
  **Gopal Payghan : Backend Developement**
  
- **Shruti Gadilkar : Frontend Development**
+ **Shruti Gadilkar : Frontend Development, UI/UX Designing**
  
- **Ashutosh Mandan : Documentation & Research Work, UI/UX Designing**
+ **Ashutosh Mandan : Documentation & Research Work, Software Testing**
  
- **Sanket Pandit : Model Development**
+ **Sanket Pandit : Data Pipeline & Data Processing**
  
